@@ -11,7 +11,7 @@ const projects = [
     description: "Machine learning model using XGBoost and GARCH to predict options prices.",
     tags: ["Python", "XGBoost", "GARCH", "Quantitative Finance"],
     github: "https://github.com/devxinvestor/Options",
-    image: "/financial-options-trading-charts.jpg",
+    image: "/images/financial-options-trading-charts.jpg",
   },
   {
     title: "Alzheimer's Disease Detection",
@@ -19,14 +19,14 @@ const projects = [
       "Deep learning Convolutional Neural Network model for early-stage Alzheimer's detection from MRI scans.",
     tags: ["Python", "CNN", "Deep Learning", "Healthcare AI"],
     github: "https://github.com/devxinvestor/Alzheimer-Detection",
-    image: "/brain-mri-scan.png",
+    image: "/images/brain-mri-scan.png",
   },
   {
     title: "Algorithmic Trading Screener",
     description: "Quantitative stock screener using momentum and mean-reversion strategies.",
     tags: ["Python", "Algorithmic Trading", "Backtesting", "Quant"],
     github: "https://github.com/devxinvestor/Algorithmic-Trading",
-    image: "/stock-market-trading-algorithm.jpg",
+    image: "/images/stock-market-trading-algorithm.jpg",
   },
   {
     title: "TradEx – Community Trading App",
@@ -34,7 +34,7 @@ const projects = [
       "Full-stack community trading platform built with Svelte, Go, and SQLite. Features real-time market data, social trading, and portfolio tracking.",
     tags: ["Svelte", "Go", "SQLite", "Full-Stack"],
     github: "https://github.com/goldenbergdaniel/SWE-Final-Project",
-    image: "/trading-app-mobile-interface.jpg",
+    image: "/images/trading-app-mobile-interface.jpg",
   },
   {
     title: "Math for Machine Learning",
@@ -42,7 +42,7 @@ const projects = [
       "Comprehensive mathematical foundations for ML implemented in Julia. Covers linear algebra, probability, and optimization algorithms.",
     tags: ["Julia", "Mathematics", "Machine Learning", "Algorithms"],
     github: "https://github.com/devxinvestor/Math-for-Machine-Learning",
-    image: "/mathematical-equations-machine-learning.jpg",
+    image: "/images/mathematical-equations-machine-learning.jpg",
   },
   {
     title: "AVL Tree",
@@ -50,7 +50,7 @@ const projects = [
       "Self-balancing binary search tree implementation in C++ with insertion, deletion, and rotation operations.",
     tags: ["C++", "Data Structures", "Algorithms"],
     github: "https://github.com/devxinvestor/AVL-Tree",
-    image: "/bw_avltree.jpg",
+    image: "/images/bw_avltree.jpg",
   },
   {
     title: "Minesweeper",
@@ -58,7 +58,7 @@ const projects = [
       "Classic Minesweeper game implementation in C++ with recursive flood-fill algorithm and GUI interface.",
     tags: ["C++", "Game Development", "Algorithms"],
     github: "https://github.com/devxinvestor/Minesweeper",
-    image: "/Minesweeper.jpg",
+    image: "/images/Minesweeper.jpg",
   },
 ]
 
