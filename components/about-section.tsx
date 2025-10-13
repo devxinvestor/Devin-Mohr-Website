@@ -46,8 +46,8 @@ export default function AboutSection() {
               animate={isInView ? { opacity: 1, x: 0 } : {}}
               transition={{ delay: 0.3, duration: 0.5 }}
             >
-              I am a Senior at the University of Florida pursuing a Bachelor's in Computer Science and a Master's in
-              Finance. I have gained experience across the sell-side and buy-side, having worked at a capital advisory
+              I am a Senior at the University of Florida pursuing a Bachelor's Degree in Computer Science and a Master's Degree in
+              Finance. I have gained experience across the sell-side and buy-side, having worked at a boutique advisory
               firm, an endowment investment office, and an alternative asset management firm. Some of my hobbies include
               playing classical piano, basketball, speed cubing, and reading.
             </motion.p>

@@ -7,28 +7,22 @@ import { Briefcase, GraduationCap, Code } from "lucide-react"
 
 const experiences = [
   {
-    year: "July 2026",
-    title: "Incoming Investment Banking Analyst",
-    organization: "Wells Fargo",
-    location: "New York, NY",
-  },
-  {
-    year: "January 2025 – Present",
-    title: "Portfolio Manager",
-    organization: "Gator Student Investment Fund",
-    location: "Gainesville, FL",
-  },
-  {
     year: "June – August 2025",
-    title: "Private Equity Summer Analyst",
+    title: "Summer Analyst",
     organization: "Blue Owl Capital",
     location: "New York, NY",
   },
   {
     year: "June – December 2024",
-    title: "Investment Analyst Intern",
+    title: "Investment Intern",
     organization: "University of Florida Investment Corporation",
     location: "Gainesville, FL",
+  },
+  {
+    year: "May – August 2023",
+    title: "Summer Analyst",
+    organization: "Two River Ventures, LLC",
+    location: "Sarasota, FL",
   },
 ]
 
@@ -188,11 +182,11 @@ export default function ExperienceSection() {
                     >
                       <div className="absolute -left-[9px] top-2 w-4 h-4 bg-[#3b82f6] rounded-full" />
                       <p className="font-semibold text-white mb-1.5">University of Florida</p>
-                      <p className="text-sm italic text-[#94a3b8] mb-1.5">Herbert Wertheim College of Engineering</p>
-                      <p className="text-sm font-medium text-[#cbd5e1] mb-1.5">
-                        Bachelor of Science in Computer Science
+                      <p className="text-sm italic text-[#94a3b8] mb-1.5">
+                        William R. Hough Graduate School of Business
                       </p>
-                      <p className="text-xs text-[#3b82f6] font-medium">2022 – 2025</p>
+                      <p className="text-sm font-medium text-[#cbd5e1] mb-1.5">Master of Science in Finance</p>
+                      <p className="text-xs text-[#3b82f6] font-medium">2024 – 2026</p>
                     </motion.div>
 
                     <motion.div
@@ -202,11 +196,11 @@ export default function ExperienceSection() {
                     >
                       <div className="absolute -left-[9px] top-2 w-4 h-4 bg-[#3b82f6] rounded-full" />
                       <p className="font-semibold text-white mb-1.5">University of Florida</p>
-                      <p className="text-sm italic text-[#94a3b8] mb-1.5">
-                        William R. Hough Graduate School of Business
+                      <p className="text-sm italic text-[#94a3b8] mb-1.5">Herbert Wertheim College of Engineering</p>
+                      <p className="text-sm font-medium text-[#cbd5e1] mb-1.5">
+                        Bachelor of Science in Computer Science
                       </p>
-                      <p className="text-sm font-medium text-[#cbd5e1] mb-1.5">Master of Science in Finance</p>
-                      <p className="text-xs text-[#3b82f6] font-medium">2024 – 2026</p>
+                      <p className="text-xs text-[#3b82f6] font-medium">2022 – 2025</p>
                     </motion.div>
                   </div>
                 </div>
