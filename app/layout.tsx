@@ -10,14 +10,13 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Devin Mohr | Investment Banking Analyst",
+  title: "Devin Mohr",
   description:
-    "Investment Banking M&A Analyst at Wells Fargo. M.S. Finance & B.S. Computer Science from University of Florida. Specializing in mergers & acquisitions, valuation, and quantitative analysis.",
+    "Master of Science in Finance Student at the University of Florida",
   keywords: [
     "Devin Mohr",
     "Investment Banking",
     "M&A",
-    "Wells Fargo",
     "Finance",
     "University of Florida",
     "Valuation",
@@ -25,20 +24,30 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Devin Mohr" }],
   openGraph: {
-    title: "Devin Mohr | Investment Banking Analyst",
-    description: "Investment Banking M&A Analyst at Wells Fargo",
+    title: "Devin Mohr",
+    description: "Master of Science in Finance Student at the University of Florida",
     type: "website",
     locale: "en_US",
+    images: [
+      {
+        url: "/images/Devin-Mohr.png",
+        width: 1200,
+        height: 630,
+        alt: "Devin Mohr",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Devin Mohr | Investment Banking Analyst",
-    description: "Investment Banking M&A Analyst at Wells Fargo",
+    title: "Devin Mohr",
+    description: "Master of Science in Finance Student at the University of Florida",
+    images: ["/images/Devin-Mohr.png"],
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/images/Devin-Mohr.png",
+    apple: "/images/Devin-Mohr.png",
+    shortcut: "/images/Devin-Mohr.png",
   },
-    generator: 'v0.app'
 }
 
 export default function RootLayout({

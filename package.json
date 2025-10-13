@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "dev": "next dev",
     "build": "next build",
-    "deploy": "next build && touch out/.nojekyll && gh-pages -d out -t true"
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "next build && gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
