@@ -48,9 +48,9 @@ export default function AboutSection() {
             >
               I am a senior at the University of Florida pursuing a B.S. in Computer Science 
               and an M.S. in Finance. I have gained experience on both the sell-side and buy-side 
-              through internships at a boutique advisory firm, an endowment investment office, and 
-              an alternative asset management firm. Outside of school and work, I enjoy playing piano, 
-              basketball, solving Rubik's cubes, and reading.
+              through internships at a boutique advisory firm, an endowment investment office, and an 
+              alternative asset management firm. Outside of school and work, I enjoy playing the piano, 
+              solving Rubik's cubes, reading, and playing basketball.
             </motion.p>
           </div>
 
