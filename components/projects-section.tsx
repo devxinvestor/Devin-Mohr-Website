@@ -144,19 +144,15 @@ export default function ProjectsSection() {
               {projects.map((project, index) => (
                 <motion.div
                   key={index}
-                  className="group flex-shrink-0 w-[85vw] sm:w-[350px] md:w-[400px] bg-white rounded-xl border border-[#e2e8f0] overflow-hidden hover:border-[#3b82f6] hover:shadow-2xl transition-all duration-300 snap-start"
+                  className="group flex-shrink-0 w-[85vw] sm:w-[350px] md:w-[400px] bg-white rounded-xl border border-[#e2e8f0] overflow-hidden hover:border-[#3b82f6] hover:shadow-2xl transition-all duration-300 snap-start cursor-pointer"
                   initial={{ opacity: 0, x: 50 }}
                   animate={isInView ? { opacity: 1, x: 0 } : {}}
                   transition={{ delay: index * 0.1 }}
                   whileHover={{ y: -8 }}
+                  onClick={() => window.open(project.github, "_blank", "noopener,noreferrer")}
                 >
                   <>
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="aspect-video overflow-hidden bg-[#f1f5f9] relative block cursor-pointer"
-                    >
+                    <div className="aspect-video overflow-hidden bg-[#f1f5f9] relative">
                       <img
                         src={project.image || "/placeholder.svg"}
                         alt={project.title}
@@ -167,12 +163,20 @@ export default function ProjectsSection() {
                           <Github className="w-5 h-5 text-[#0f172a]" />
                         </div>
                       </div>
-                    </a>
+                    </div>
 
                     <div className="p-6">
-                      <h3 className="text-xl font-semibold text-[#0f172a] group-hover:text-[#3b82f6] transition-colors mb-2">
-                        {project.title}
-                      </h3>
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()}
+                        className="inline-block"
+                      >
+                        <h3 className="text-xl font-semibold text-[#0f172a] group-hover:text-[#3b82f6] transition-colors mb-2">
+                          {project.title}
+                        </h3>
+                      </a>
 
                       <p className="text-[#475569] text-sm leading-relaxed mb-4">{project.description}</p>
 
