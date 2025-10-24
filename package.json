@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && gh-pages -d out --dotfiles"
+    "predeploy": "npm run build && touch out/.nojekyll && echo 'devin-mohr.com' > out/CNAME",
+    "deploy": "gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
